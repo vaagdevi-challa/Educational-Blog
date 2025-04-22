@@ -33,60 +33,14 @@ A full-stack **Educational Blog Platform** where users can **create**, **read**,
 
 ## 📂 Project Structure
 
-educational-blog/
-│
-├── backend/                         # Express.js backend
-│   ├── server.js                    # Entry point of the backend server
-│   ├── .env                         # Environment variables
-│   ├── config/
-│   │   └── db.js                    # MongoDB connection setup
-│   ├── models/
-│   │   ├── User.js                  # User schema
-│   │   └── Blog.js                  # Blog schema
-│   ├── middleware/
-│   │   └── authMiddleware.js        # Middleware for auth routes
-│   ├── routes/
-│   │   ├── authRoutes.js            # Routes for authentication
-│   │   └── blogRoutes.js            # Routes for blog operations
-│   └── uploads/                     # Folder for uploaded files/images
-│
-├── frontend/                        # React frontend
-│   └── src/
-│       ├── App.js                   # Root component with route definitions
-│       ├── index.js                 # Entry point of the React app
-│       │
-│       ├── components/              # Reusable UI components
-│       │   ├── BlogCard.js
-│       │   └── Navbar.js
-│       │
-│       ├── pages/                   # Pages/views of the app
-│       │   ├── AuthPage.js
-│       │   ├── BlogDashboard.js
-│       │   ├── BlogDetail.js
-│       │   ├── CreateBlog.js
-│       │   ├── EditBlog.js
-│       │   ├── EducationalBlog.js
-│       │   └── Profile.js
-│       │
-│       ├── services/                # API calls and backend communication
-│       │   └── api.js
-│       │
-│       └── styles/                  # CSS files for various components/pages
-│           ├── auth.css
-│           ├── dash.css
-│           ├── edit.css
-│           ├── global.css
-│           ├── home.css
-│           └── profile.css
-
-
+<pre> ```bash educational-blog/ │ ├── backend/ # Express.js backend │ ├── server.js # Entry point of the backend server │ ├── .env # Environment variables │ ├── config/ │ │ └── db.js # MongoDB connection setup │ ├── models/ │ │ ├── User.js # User schema │ │ └── Blog.js # Blog schema │ ├── middleware/ │ │ └── authMiddleware.js # Middleware for auth routes │ ├── routes/ │ │ ├── authRoutes.js # Routes for authentication │ │ └── blogRoutes.js # Routes for blog operations │ └── uploads/ # Folder for uploaded files/images │ ├── frontend/ # React frontend │ └── src/ │ ├── App.js # Root component with route definitions │ ├── index.js # Entry point of the React app │ │ │ ├── components/ # Reusable UI components │ │ ├── BlogCard.js │ │ └── Navbar.js │ │ │ ├── pages/ # Pages/views of the app │ │ ├── AuthPage.js │ │ ├── BlogDashboard.js │ │ ├── BlogDetail.js │ │ ├── CreateBlog.js │ │ ├── EditBlog.js │ │ ├── EducationalBlog.js │ │ └── Profile.js │ │ │ ├── services/ # API calls and backend communication │ │ └── api.js │ │ │ └── styles/ # CSS files for various components/pages │ ├── auth.css │ ├── dash.css │ ├── edit.css │ ├── global.css │ ├── home.css │ └── profile.css ``` </pre>
 
 ---
 
 ## 🔧 Getting Started
 
-### 1️⃣ Clone the repository
-git clone https://github.com/yourusername/educational-blog.git
+<pre> ### 1️⃣ Clone the repository
+git clone https://github.com/vaagdevi-challa/Educational-Blog.git
 cd educational-blog
 
 ### 2️⃣ Set up the Backend
@@ -106,3 +60,4 @@ npm start
 cd ../frontend
 npm install
 npm start
+</pre>
