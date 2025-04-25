@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Educational-Blog/static/css/main.be91e632.css",
+    "main.js": "/Educational-Blog/static/js/main.944717de.js",
+    "index.html": "/Educational-Blog/index.html",
+    "main.be91e632.css.map": "/Educational-Blog/static/css/main.be91e632.css.map",
+    "main.944717de.js.map": "/Educational-Blog/static/js/main.944717de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be91e632.css",
+    "static/js/main.944717de.js"
+  ]
+}
